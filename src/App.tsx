@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Todo from './Components/Todo/Todo';
+// import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Profile name="Saurav" age={ 19 } status="coder" salary="5ctc"/>
+      <Profile name="Gaurav" status="Single" salary="5ctc"/>
+      <Profile name="Deep"  /> */}
+      <Todo/>
     </div>
   );
 }
